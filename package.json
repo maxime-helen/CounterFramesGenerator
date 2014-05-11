@@ -1,0 +1,23 @@
+{
+  "name" : "CounterFramesGenerator",
+  "repository" :
+  {
+    "type" : "git", 
+    "url" : "https://github.com/MaximeHelen/CounterFramesGenerator.git"
+  },
+  "dependencies" : {
+    "commander":"",
+    "gm":"",
+    "imagemagick":""
+  },
+  "keywords": [
+    "counter",
+    "frames",
+    "generator"
+  ],
+  "author": "Maxime Helen <helenmaxime@gmail.com>",
+  "license": "MIT",
+   "scripts": {
+    "start": "node generate_frames.js"
+  }
+}

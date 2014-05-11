@@ -1,0 +1,23 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<head>
+<script>
+	var timeStep = 41.6666; // in ms
+	setInterval(function(){
+		var xx = document.getElementById("xx").innerHTML;
+		var yy = document.getElementById("yy").innerHTML;
+		xx++;
+		if(xx==23){
+			xx=0;
+			yy++;
+		}
+		document.getElementById("xx").innerHTML = xx;
+		document.getElementById("yy").innerHTML = yy;
+	}, timeStep);
+
+</script>
+</head>
+<body>
+	<a id='xx' style="position:absolute;left:300px;top:100px;font-size:200px;font-weight:900;color:red">0</a>
+	<a style="position:absolute;left:600px;top:100px;font-size:200px;font-weight:900;color:red">:</a>
+	<a id='yy' style="position:absolute;left:800px;top:100px;font-size:200px;font-weight:900;color:red">0</a>
+</body>
