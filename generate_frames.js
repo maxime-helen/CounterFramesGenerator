@@ -9,19 +9,19 @@ var commander = require("commander");
 //Command line options
 commander
 	.version('0.0.1')
-	.option('-t, --target <target>', "specify target <target> for saving generated frames","./")
+	.option('-t, --target <target>', "specify target <target> for saving generated frames","./test")
 	.option('-f, --fps <fps>', "set the <fps> value",24)
 	.option('-l, --limit <limit>', "set the <limit> number of generated frames",100)
 	.option('-s, --size <size>', "set the <size> value of generated frames, [width]x[height]","1600x900")
 
 //Add footer to the help output 
 var footer = function(){
-  console.log('  Examples:');
-  console.log('');
-  console.log('    $ node generate_frames.js --help');
-  console.log('    $ node generate_frames.js --version');
-  console.log('    $ node generate_frames.js -t ./example -f 30 -l 90');
-  console.log('    $ node generate_frames.js --target ./example --fps 30 --limit 90');
+	console.log('  Examples:');
+	console.log('');
+	console.log('    $ node generate_frames.js --help');
+	console.log('    $ node generate_frames.js --version');
+	console.log('    $ node generate_frames.js -t ./example -f 30 -l 90 -s 1500x600');
+	console.log('    $ node generate_frames.js --target ./example --fps 30 --limit 90');
 };
 commander
 	.on('-help',footer)
