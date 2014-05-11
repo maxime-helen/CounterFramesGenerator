@@ -5,6 +5,10 @@ CounterFramesGenerator
 
 Simple node js back end solution for generating frames according to a fps value. It could be useful for testing video streams encode/decode and making sure any frames has been missed.  
 
+## Compatibility
+
+Check out this [page] (https://github.com/aheckmann/gm/wiki/GraphicsMagick-and-ImageMagick-versions) before starting. It lists which OS are supported for using the application. 
+
 ## Requirements
  
  * [nodejs] (http://nodejs.org/)
