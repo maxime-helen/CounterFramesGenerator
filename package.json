@@ -8,7 +8,8 @@
   "dependencies" : {
     "commander":"",
     "gm":"",
-    "imagemagick":""
+    "imagemagick":"",
+    "q":""
   },
   "keywords": [
     "counter",
