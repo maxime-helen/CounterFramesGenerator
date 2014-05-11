@@ -31,7 +31,7 @@ npm install
 ``````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
 
 ## Get started
- * Lunch application with default values. It generates 100 frames sized by 1600*900 for 24 fps in the `./test` repository 
+ * Lunch the programm with default values. It generates 100 frames sized by 1600*900 for 24 fps in the `./test` repository 
 ``````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
 node generate_frames.js
 ``````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
