@@ -12,11 +12,7 @@ commander
 	.option('-t, --target <target>', "specify target <target> for saving generated frames","./test")
 	.option('-f, --fps <fps>', "set the <fps> value",24)
 	.option('-l, --limit <limit>', "set the <limit> number of generated frames",100)
-<<<<<<< HEAD
-	.option('-s, --size <size>', "set the <size> value of generated frames, [width]x[height]","1600x900")
-=======
 	.option('-s, --size <size>', "set the <size> value of generated frames, [width]x[height]","3840x2160")
->>>>>>> gh-pages
 
 //Add footer to the help output 
 var footer = function(){
@@ -24,11 +20,7 @@ var footer = function(){
 	console.log('');
 	console.log('    $ node generate_frames.js --help');
 	console.log('    $ node generate_frames.js --version');
-<<<<<<< HEAD
-	console.log('    $ node generate_frames.js -t ./example -f 30 -l 90 -s 1500x600');
-=======
 	console.log('    $ node generate_frames.js -t ./example -f 30 -l 90 -s 3840x2160');
->>>>>>> gh-pages
 	console.log('    $ node generate_frames.js --target ./example --fps 30 --limit 90');
 };
 commander
